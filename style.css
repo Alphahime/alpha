@@ -1,0 +1,569 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: red;
+    display: flex;
+}
+h1{
+    font-size: 22px;
+    color: black;
+}
+ 
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 198, 136);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.logo{
+     justify-content: center;
+}
+.logo-image{
+    width: 100px;
+    height: 50px;
+}
+nav{
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: -2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2rem;
+}
+button{
+    padding:  0.5rem  1rem;
+    border-radius: 1.5rem;
+    color: black;
+    margin: 0;
+    font-size: 18px;
+    background-color: transparent;
+    margin-left: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+}
+.line{
+    position: absolute;
+    width: 100px;
+    height: 300px;
+    margin-left: 87rem;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: rgb(255, 198, 136);
+    margin-top: 0.5rem;
+}
+.box-image{
+    background-image:  url("image0-1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: auto;
+   
+}
+.box-info{
+    width: 40%;
+    height: auto;
+    padding-top: 3rem;
+    font-size: 12px;
+    margin: 20px ;
+  
+}
+.box-info h1{
+    font-size: 33px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.box-info P{
+    font-size: 16px;
+    color: rgb(53, 51, 51);
+    margin-top: 5rem;
+}
+.watshap{
+    width: 70%;
+    height: 36px;
+    background-color: black;
+    color: white ;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6rem;
+}
+.watshap h4{
+    font-size: 14px;
+}
+.big-container{
+    width: 100%;
+    height: auto;
+    background-color: white;
+   
+}
+.big-container p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 3rem;
+    font-size: 22px;
+}
+.contain-box{
+    width: 80%;
+    border: 1px solid rgb(196, 144, 88) ;
+    height: auto;
+    margin-top: 2rem;
+    margin: 9rem;
+    flex-wrap: wrap;
+    display: flex;
+}
+.contain-box .box-horiz{
+    width: 100%;
+    height: 220px;
+    border: 1px solid rgb(196, 144, 88) ;
+    display: flex;
+}
+.box-horiz img {
+    padding: 1rem;
+}
+.all-box{
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.all-box img{
+    padding: 1rem;
+}
+.all-box .box{
+   width: 50%;
+   height: 300px;
+   border: 1px solid rgb(196, 144, 88) ;
+   display: flex;
+}
+.texte-box{
+    width:60%;
+    height: 300px;
+    
+}
+.texte-box h1{
+    color: rgb(196, 144, 88);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+}
+.texte-box p{
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    line-height: 1.5;
+}
+.texte-box-horiz{
+    width: 60%;
+    height: 300px;
+    margin-left: 4rem;
+}
+.texte-box-horiz h1{
+    color:rgb(196, 144, 88) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+}
+.texte-box-horiz p{
+  text-align: left;
+  line-height: 1.5;
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+}
+.contain-box-verticale{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    padding-right: 2rem;
+    margin: 20px 0;
+    justify-content: center;
+    margin-left: 6rem;
+}
+.box-verti{
+    width: 30%;
+    height:250px;
+    border: 1px solid rgb(196, 144, 88) ;
+    margin-right: 2rem;
+    display: flex;
+
+}
+.box-verti img{
+    width: 80px;
+    height: 80Px;
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+} 
+.box-verti P{
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    text-align: left;
+    padding: 1rem;
+}
+.box-verti span{
+    color: rgb(179, 128, 73) ;
+    font-size: 16px;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 11rem;
+    margin-left: 5.6rem;
+}
+section{
+    width: 80%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 8.5rem;
+}
+section img{
+    width: 500px;
+    height: auto;
+    padding: 1rem 1rem;
+    margin-left: -6rem;
+    margin-top: 1rem;
+}
+section span{
+    color: rgb(179, 128, 73);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.card-black{
+    flex-direction: column;
+    padding-top: 2rem;
+    width: 35%;
+    height: auto;
+    padding-left: 4rem;
+}
+.card-black p{
+ font-size: 17px;
+ color: rgb(185, 140, 91);
+ text-align: left;
+ line-height: 2;
+ font-weight: lighter;
+}
+
+.container-image-texte{
+    width: 80%;
+    height: 600px;
+    margin: 8rem;
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 10rem;
+   
+ 
+}
+.ing{
+    width: 60%;
+    height: auto;
+    border-top: 2px solid rgb(200, 162, 121);
+    display: flex;
+    position: absolute;
+    margin-left: 18rem;
+    margin-top: -2rem;
+}
+.container-image-texte .card1{
+    width: 40%;
+    height: 300px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    background-image: url("labarbiere_two-1536x1023.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-image-texte .card2{
+    width: 40%;
+    height: 300px;
+
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.container-image-texte .card3{
+    width: 40%;
+    height: 300px;
+ 
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.container-image-texte .card4{
+    width: 40%;
+    height: 300px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.card2 p{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+    display: flex;
+    margin: 0;
+}
+.card3 p{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+    display: flex;
+    margin: 0;
+}
+.card4{
+    background-image: url("jean-louis-deforges.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sect{
+    width: 80%;
+    height: 600px;
+    background-color: rgb(255, 198, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+.ifram{
+    width: auto;
+    height: 500px;
+
+}
+.btn{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.button{
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.formulaire{
+    width: 60%;
+    height: 500px;
+}
+.formulaire .pf{
+   text-align: left;
+   margin: 0;
+   font-size: 15px;
+   margin-left: 2rem;
+}
+.formulaire h5{
+   font-size: 12px;
+   color: rgb(82, 82, 82);
+   margin-left: 2rem;
+   margin-top: 1rem;
+ }
+ 
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 2rem;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 600;
+}
+.btn-reserve {
+    background-color: black;
+    color:white;
+    padding: 0.5rem 7rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 2.7rem;
+}
+
+input, textarea {
+    width: calc(50% - 5px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+}
+.log-footer{
+    width: 120px;
+    height: 50px;
+}
+.icone img{
+    margin-right: 2rem;
+}
+.copy{
+    color: rgba(255, 205, 170, 0.732);
+    font-size: 12px;
+    margin-top: 4rem;
+    position: absolute;
+    margin-left: -29rem;
+    font-weight: lighter;
+}
+
+
+
+/* Pour les petits écrans, comme les téléphones */
+@media only screen and (max-width: 600px) {
+    header {
+        height: auto;
+        flex-direction: column;
+    }
+
+    nav {
+        margin-left: 0;
+    }
+
+    .logo-image {
+        width: 80px;
+        height: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .box-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .box-info {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .watshap {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .big-container {
+        padding: 0 10px;
+    }
+
+    .contain-box,
+    .all-box {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .texte-box,
+    .texte-box-horiz {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contain-box-verticale {
+        margin-left: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box-verti {
+        width: 100%;
+        margin: 0;
+    }
+
+    .box-verti img {
+        margin-top: 1rem;
+    }
+
+    section {
+        margin: 0;
+    }
+
+    section img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card-black {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container-image-texte {
+        margin: 1rem 0;
+        padding-left: 10px;
+    }
+
+    .ing {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .container-image-texte .card1,
+    .container-image-texte .card2,
+    .container-image-texte .card3,
+    .container-image-texte .card4 {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .sect,
+    .ifram {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .formulaire {
+        width: 100%;
+    }
+
+    form {
+        margin: 1rem;
+    }
+
+    label,
+    textarea,
+    input {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* paritie tablette*/
+}
+
+ 
